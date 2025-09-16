@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Saqib-Portfolio/static/css/main.ebed3152.css",
+    "main.js": "/Saqib-Portfolio/static/js/main.4f9a2941.js",
+    "index.html": "/Saqib-Portfolio/index.html",
+    "main.ebed3152.css.map": "/Saqib-Portfolio/static/css/main.ebed3152.css.map",
+    "main.4f9a2941.js.map": "/Saqib-Portfolio/static/js/main.4f9a2941.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebed3152.css",
+    "static/js/main.4f9a2941.js"
+  ]
+}
