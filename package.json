@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A personal portfolio website showcasing skills, projects, and contact information.",
   "main": "src/index.tsx",
+  "homepage": "https://sheiksaqibahmed.github.io/Saqib-Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "portfolio",
@@ -24,7 +27,8 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2"
+    "@types/react-dom": "^17.0.2",
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
