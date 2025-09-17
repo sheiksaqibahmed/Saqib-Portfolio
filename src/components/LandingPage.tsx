@@ -58,7 +58,7 @@ const LandingPage: React.FC = () => {
     return (
         <div style={styles.landingPage}>
             <img
-                src="/resume/Saqib_Profile.jpg"
+                src="public/resume/Saqib_Profile.jpg"
                 alt="Profile"
                 style={styles.profilePic}
             />
