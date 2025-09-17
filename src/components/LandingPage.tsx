@@ -16,16 +16,6 @@ const LandingPage: React.FC = () => {
             boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
         } as React.CSSProperties,
 
-        profilePic: {
-            width: '130px',
-            height: '130px',
-            borderRadius: '50%',
-            objectFit: 'cover' as const, // ✅ TypeScript fix here
-            marginBottom: '1.5rem',
-            border: '4px solid #ffffff',
-            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
-        } as React.CSSProperties,
-
         h1: {
             fontSize: '2.5rem',
             marginBottom: '0.5rem',
@@ -57,11 +47,6 @@ const LandingPage: React.FC = () => {
 
     return (
         <div style={styles.landingPage}>
-            <img
-                src="/resume/Saqib_Profile.jpg"
-                alt="Profile"
-                style={styles.profilePic}
-            />
             <h1 style={styles.h1}>Sheik Saqib Ahmed</h1>
             <h2 style={styles.h2}>Software Engineer</h2>
             <div style={styles.ctaButtons}>
